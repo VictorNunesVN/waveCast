@@ -1,0 +1,10 @@
+.menu-lateral {
+    display: grid;
+    grid-template-rows: repeat(3, auto) 1fr;
+    /*obs: repeat(3, auto) substitui => auto auto auto*/
+    row-gap: 2rem;
+}
+
+.menu-lateral__logo {
+    justify-self: center;
+}
