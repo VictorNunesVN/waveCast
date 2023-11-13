@@ -17,3 +17,13 @@
 .secao-vertical {
     grid-template-columns: 1fr auto ;
 }
+
+.secao-vertical .secao__cartoes {
+    display: grid;
+    grid-auto-flow: column;
+    overflow-x: scroll; /* barra de rolagem no eixo x*/
+    overflow-y: hidden; /* hidden esconde a barra de tolagem no eixo y*/
+    grid-column: 1 / 3; /* elementos ocupem da  1 coluna até a ultima borda da ultima coluna*/
+    column-gap: 1.25rem;
+    
+}
