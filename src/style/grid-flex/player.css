@@ -1,0 +1,31 @@
+.play {
+    display: grid;
+    grid-template-areas: 
+    'reproducao controle volume';
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.play__reproducao{
+    grid-area: reproducao;
+}
+
+.play__controle {
+    grid-area: controle;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+
+}
+
+.play__btnControle{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.play__volume {
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+}
